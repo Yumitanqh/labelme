@@ -14,7 +14,7 @@ labelme data_annotated --labels labels.txt --nodata --autosave
 
 ```bash
 # It generates:
-#   - data_dataset_voc/JPEGImages
+#   - data_dataset_voc/Images
 #   - data_dataset_voc/Annotations
 #   - data_dataset_voc/AnnotationsVisualization
 ./labelme2voc.py data_annotated data_dataset_voc --labels labels.txt
